@@ -22,19 +22,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST")
   $is_invalid = true;
 }
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>LogIn Page</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/login.css">
- 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
-</head>
-<body>
-<img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-  <div class="form__class">
+<!DOCiv class="form__class">
   <form class="login__form" method="post">
     <h1>Login</h1>
     <?php if($is_invalid):?>
@@ -67,4 +55,16 @@ if($_SERVER["REQUEST_METHOD"] === "POST")
 </body>
 </html>
 
-
+TYPE html>
+<html>
+<head>
+  <title>LogIn Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/login.css">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+</head>
+<body>
+<img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+  <d
